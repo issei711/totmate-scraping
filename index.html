@@ -3,17 +3,26 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>リッチなリンクボタン</title>
+  <title>トットメイト様 ヒトマネスクレイピング</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <canvas id="bg-canvas"></canvas>
+  <div id="vanta-bg"></div>
+
+  <h1 class="main-title">トットメイト様 ヒトマネスクレイピング</h1>
 
   <div class="button-container">
-    <a href="https://example.com" target="_blank" class="rich-button">外部リンクへ</a>
+    <a href="https://example.com" target="_blank" class="rich-button">スクレイピング開始</a>
   </div>
 
+  <!-- GSAP -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+  <!-- VANTA.js 背景 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
+
+  <!-- 自作JS -->
   <script src="script.js"></script>
 </body>
 </html>
