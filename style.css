@@ -35,6 +35,7 @@ body, html {
 .rich-button {
   background: linear-gradient(135deg, #6e8efb, #a777e3);
   padding: 20px 40px;
+  margin: 0 15px;
   font-size: 24px;
   color: white;
   text-decoration: none;
